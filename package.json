@@ -1,0 +1,34 @@
+{
+  "name": "blue-moon-dark-theme",
+  "displayName": "Blue Moon dark theme",
+  "description": "A personalized dark theme",
+  "version": "0.0.1",
+  "publisher": "AshwinManoj",
+  "repository": {
+    "type": "git",
+    "url": "link"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "blue theme",
+    "dark blue theme",
+    "github",
+    "github theme"
+  ],
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blue Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Blue Moon-color-theme.json"
+      }
+    ]
+  }
+}
